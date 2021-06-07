@@ -6,8 +6,15 @@ def ConfirmEnter(choiceA,choiceB,choiceCancel):
   else:
     answer = input(">>>")
 print("Welcome to python quiz!")
-ConfirmEnter(,,)
+ConfirmEnter("","","")
 print("You can create your own question and answer in assets folder.")
-ConfirmEnter(,,)
+ConfirmEnter("","","")
 print("Do you want to continue playing?")
 ConfirmEnter("Yes","No","Cancel")
+if answer == 'Yes':
+  print("Let the QUIZ Begin!")
+  ConfirmEnter("","","")
+elif answer == 'No':
+  exit()
+elif answer == 'Cancel':
+  
